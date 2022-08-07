@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "experimentalDecorators": true
+  }
+}
