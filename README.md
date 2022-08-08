@@ -7,10 +7,10 @@
 
 
 ### 环境
-
-<img src="https://img.shields.io/static/v1?label=node&message=v16.16.0&color=red">
-
-<img src="https://img.shields.io/badge/npm-8.11.0-blueviolet">
+<a href="https://nodejs.org/dist/v16.16.0/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/static/v1?style=flat-square&label=node&message=v16.16.0&color=red">
+    <img src="https://img.shields.io/badge/npm-8.11.0-blueviolet?style=flat-square">
+</a>
 
 
 ### 命令
