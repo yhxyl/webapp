@@ -5,9 +5,9 @@
 <script lang="ts">
     import { Vue, Options } from "vue-class-component";
     @Options({
-        created(){
-            const a:string = '123'
-            console.log(a)
+        created() {
+            const test: string = 'yhxyl'
+            console.log(test)
         }
     })
     export default class App extends Vue {
