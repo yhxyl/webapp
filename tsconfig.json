@@ -4,6 +4,12 @@
     "strict": true,
     "moduleResolution": "node",
     "target": "es5",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "types": ["element-plus/global"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowSyntheticDefaultImports": true
   }
 }
