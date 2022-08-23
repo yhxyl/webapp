@@ -21,7 +21,7 @@ module.exports = {
                 loader: 'vue-loader'
             },
             {
-                test:/\.css$/,
+                test:/\.s?css$/,
                 use:[
                     {loader:'style-loader'},
                     {loader:'css-loader'}
@@ -46,7 +46,7 @@ module.exports = {
         new VueLoaderPlugin(),
 		new HtmlWebpackPlugin({
 			filename:'index.html',
-			template:'./public/index.html'
+			template:'./index.html'
 		})
     ],
 	devServer: {
